@@ -1,0 +1,155 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  
+  background: linear-gradient(18deg, #000000, #53003e, #8d002f, #0b8800, purple);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+	height: 95vh;
+}
+
+h1 {
+  margin: 15px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #49c449;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+  
+}
+
+footer {
+  margin-top: 1%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  
+}
+img:hover{
+  width: 70.5%;
+  
+}
+h1:hover{
+  color: rgb(173, 0, 0);
+}
+.btncont{
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  
+  margin-bottom: 0;
+  align-items: center;
+}
+.btn{
+  height: 40px;
+  border: solid #232931 3px;
+  border-radius: 10%;
+  background-color: #a80000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: rgb(33, 255, 3);
+  box-shadow: rgb(0, 235, 0) 0px 5px 6px 0px;
+}
+.btn:hover{
+  color: white;
+  text-shadow: black 0px 8px 5px ;
+}
+.btn1{
+  box-shadow: rgb(245, 0, 0) 0px 5px 6px 0px;
+}
+
+.body1{
+  
+  margin: 0;
+  
+  
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@media (min-width: 720px) and (max-width: 1080px){
+  .dice{
+    display: block; 
+ }
+ img {
+  width: 70%;
+  
+}
+.btncont{
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  
+  margin-bottom: 0;
+  align-items: center;
+}
+.btn{
+  height: 66px;
+  width: 150px;
+  border: solid #232931 3px;
+  border-radius: 10%;
+  background-color: #a80000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+  color: rgb(33, 255, 3);
+  box-shadow: rgb(0, 235, 0) 0px 5px 6px 0px;
+}
+}
+@media (min-width: 480px) and (max-width: 720px){
+  .dice{
+    display: block; 
+ }
+ img {
+  width: 80%;
+}
+.btncont{
+  display: flex;
+  justify-content: center;
+  height: 80px; 
+  margin-bottom: 0;
+  align-items: center;
+}
+.btn{
+  height: 66px;
+  width: 150px;
+  border: solid #232931 3px;
+  border-radius: 10%;
+  background-color: #a80000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+  color: rgb(33, 255, 3);
+  box-shadow: rgb(0, 235, 0) 0px 5px 6px 0px;
+}
+}
+
